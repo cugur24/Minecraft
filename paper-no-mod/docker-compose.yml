@@ -23,3 +23,6 @@ services:
         limits:
           cpus: '2.00'
           memory: 4G
+    networks:
+      shared:
+        external: true
