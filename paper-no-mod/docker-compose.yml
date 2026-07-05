@@ -4,6 +4,8 @@ services:
   mc-server:
     image: itzg/minecraft-server:latest
     container_name: minecraft-server
+    ports:
+      - "25565:25565"
     environment:
       EULA: "TRUE"
       TYPE: "PAPER"
@@ -23,6 +25,3 @@ services:
         limits:
           cpus: '2.00'
           memory: 4G
-networks:
-  shared:
-    external: true
