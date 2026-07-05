@@ -9,7 +9,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "PAPER"
-      VERSION: "1.21.1" # Change to your preferred version
+      VERSION: "26.2" # Change to your preferred version
       WORLD_SEED: "-410552751819709174"
       MEMORY: "3G"      # Keeps 1GB free for the OS
       # Aikar's flags for optimized Java GC
